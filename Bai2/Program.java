@@ -17,7 +17,6 @@ public class Program{
         System.out.println(list.getMaxGpa());
         System.out.println(list.getMinGpa());
         
-        Integer a = 8103250400I;
 
 
 

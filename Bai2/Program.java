@@ -14,14 +14,9 @@ public class Program{
         }
 
         list.sortByGpa();
-        //(int i=0;i<list.getList().size();i++){
-            System.out.println(list.getMaxGpa());
-            System.out.println(list.getMinGpa());
-        //}
-       
-        //System.out.println(list.getList().get(0));
-        //Collection.max(list, new gpaComparator());
-        //list.sort(new gpaComparator());
+        System.out.println(list.getMaxGpa());
+        System.out.println(list.getMinGpa());
+
 
     }
 }

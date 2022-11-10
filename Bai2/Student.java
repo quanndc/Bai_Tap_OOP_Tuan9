@@ -3,7 +3,7 @@ package Bai2;
 
 import java.util.Comparator;
 
-public class Student implements Comparable<Student>, Comparator<Student>{
+public class Student implements Comparable<Student>{
     public String lastName;
     public String getLastName() {
         return lastName;
@@ -60,11 +60,6 @@ public class Student implements Comparable<Student>, Comparator<Student>{
         return temp;
     }
 
-    @Override
-    public int compare(Student o1, Student o2) {
-        // TODO Auto-generated method stub
-        return 0;
-    }
 
     public static Comparator<Student> compBybYearObj = new Comparator<Student>() {
         @Override
